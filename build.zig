@@ -23,12 +23,6 @@ pub fn build(b: *std.Build) void {
 
     // ### Libraries ###
     exe.linkSystemLibrary("vulkan");
-    exe.linkSystemLibrary("dl");
-    exe.linkSystemLibrary("pthread");
-    exe.linkSystemLibrary("X11");
-    exe.linkSystemLibrary("Xxf86vm");
-    exe.linkSystemLibrary("Xrandr");
-    exe.linkSystemLibrary("Xi");
     exe.linkSystemLibrary("glfw");
     exe.linkSystemLibrary("imgui");
     exe.linkSystemLibrary("cglm");

@@ -57,31 +57,17 @@
 
               ####################
               ### Compat Tools ###
-              xorg.libX11
-              xorg.libXrandr
-              xorg.libXcursor
-              xorg.libXi
-              xorg.libXxf86vm
-              xorg.libXinerama
-              wayland
-              wayland-protocols
-              kdePackages.qtwayland
-              kdePackages.wayqt
               ####################
 
               #################
               ### Libraries ###
               imgui
-              glfw
               glfw3
               glm
               cglm
-              sdl3
               tinyobjloader
               vk-bootstrap
               vulkan-memory-allocator
-              libGL
-              libGLU
               #################
 
               #################
@@ -100,8 +86,6 @@
 
               #############
               ### Tools ###
-              glfw
-              glfw3
               pkg-config
               #############
             ];
